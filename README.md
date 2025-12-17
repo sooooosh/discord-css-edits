@@ -75,6 +75,20 @@ li[role="listitem"]{
 }
 ```
 
+Remove custom user font in DMs list:
+```css
+[data-username-with-effects]{
+    font-family: var(--font-primary) !important;
+}
+```
+
+Remove custom user font from DMs title:
+```css
+[class*="titleClickable"] >  span{
+    font-family: var(--font-primary) !important;
+}
+```
+
 Hide Profile effects
 ```css
 *[class*="profileEffect"]{
