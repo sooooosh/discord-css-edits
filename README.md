@@ -132,3 +132,23 @@ aside[class*="upsellContainer"]{
     }
 }
 ```
+
+"Profile Customization:
+Floating upsell container
+```css
+div[class*="floatingNitroUpsell"]{
+    display: none;
+}
+```
+"nitro preview:
+```css
+div[class*="premiumFeature"]{
+    display: none;
+}
+```
+"shop banner:
+```css
+div[class*="settingsPage"] div[class*="container"]:has(div[class*="artContainer"]){
+    display: none;
+}
+```
