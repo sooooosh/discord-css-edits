@@ -152,3 +152,10 @@ div[class*="settingsPage"] div[class*="container"]:has(div[class*="artContainer"
     display: none;
 }
 ```
+
+"promoted quest in voice channel:
+```css
+div[class*="subtitleContainer"] > div[class*="wrapper"]:has(div[class*="rewardTileWrapper"]){
+    display: none;
+}
+```
