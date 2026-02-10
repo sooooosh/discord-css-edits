@@ -124,7 +124,7 @@ aside[class*="upsellContainer"]{
     display: none;
 }
 ```
-"Unlock every emoji with Nitro" popup in Emoji selector: 
+Unlock every emoji with Nitro" popup in Emoji selector: 
 ```css
 #emoji-picker-grid{
     & [class*="upsellContainer"]{
@@ -132,28 +132,34 @@ aside[class*="upsellContainer"]{
     }
 }
 ```
+VPN Nitro upsell in link opener:
+```css
+main:has(div[class*="linkCalloutContainer"]) > :nth-child(3){
+    display: none;
+}
+```
 
-"Profile Customization:
+Profile Customization:
 Floating upsell container
 ```css
 div[class*="floatingNitroUpsell"]{
     display: none;
 }
 ```
-"nitro preview:
+nitro preview:
 ```css
 div[class*="premiumFeature"]{
     display: none;
 }
 ```
-"shop banner:
+shop banner:
 ```css
 div[class*="settingsPage"] div[class*="container"]:has(div[class*="artContainer"]){
     display: none;
 }
 ```
 
-"promoted quest in voice channel:
+promoted quest in voice channel:
 ```css
 div[class*="subtitleContainer"] > div[class*="wrapper"]:has(div[class*="rewardTileWrapper"]){
     display: none;
